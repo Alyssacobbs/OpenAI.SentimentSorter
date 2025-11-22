@@ -10,23 +10,6 @@ For example, if you were checking the reviews for a wearable ring from SengLinks
 
 You are tasked with creating a minimal pipeline that reads a JSON file of reviews and generates an output file that contains one of these sentiment labels for each respective review.
 
-For example, if your input file contains the following array of reviews:
-```
-[
- "this ring smells weird, don't recomend",
- "I love this ring, I use it all the time when working out.",
- "I will never buy another brand again, I love this ring",
- "It's an ok ring. Some features could be better but for the price its fine.",
- "its a ring",
- "Bought this ring and it came broken. rip-off."
-]
-```
-
-Your program would output the following list of labels:
-```
-["negative", "positive", "positive", "neutral", "irrelevant", "negative"]
-```
-
 Your company has provided you with a sample of real-world reviews that they've received from customers from 1999-2012 on coconut water. These reviews are listed in the JSON file labeled `reviews.json`
 
 Your company has also provided you an API key **(which you must keep secret)** to interface with this API. You will again utilize test-driven development to complete this project.
@@ -160,13 +143,5 @@ Then you should:
 
 Most importantly, this should motivate you to **only run tests when needed**. Do not make API calls unless you've ensured that all proper parameters are in place for you to receive a meaningful response from OpenAI. 
 
-## Submission 
 
-The due date for this project is `04/21`.
-
-To begin work on this project, you will download this template code and push it to your GitHub repository. 
-
-Be sure to test as you code in order to verify that your functions are working correctly. If you see that all of your tests are evaluating to a green check-mark (✅) for a specific module, that means your code is ready to go, and you can move on to the next challenge.
-
-To submit this project, you will submit a link to your completed GitHub repository to Canvas.
 
